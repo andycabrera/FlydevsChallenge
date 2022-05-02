@@ -45,7 +45,7 @@ Also you can run `` npx jest `` to run the unit tests.
 
 # Test examples
 
-### The return value must be an array with two items
+### The return value must be an array with two items.
 
 Request
 ```
