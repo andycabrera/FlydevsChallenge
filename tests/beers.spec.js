@@ -3,7 +3,7 @@ const request = require('supertest')
 
 describe('POST /beers/findTwoBeers', () => {
 
-    test('Should respond with an array [0,1].', async () => {
+    test('Should respond with an array with two items.', async () => {
         const response = await request(app).post('/beers/findTwoBeers').send({
             beers: [15, 20, 25, 39, 12, 18, 19, 21],
             target: 35

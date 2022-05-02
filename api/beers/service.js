@@ -8,7 +8,6 @@ module.exports = {
                 response.push(pos)
                 response.push(beers.indexOf(target - value))
                 return response;
-
             }
         })
         return response;
